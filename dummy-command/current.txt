@@ -1,0 +1,5 @@
+ffmpeg -i banner_video_90.mp4 -af "volume=enable='between(t,0,5)':volume=0" mute_banner.mp4
+
+ffmpeg -i mute_banner.mp4 -vf "fade=t=out:st=2:d=3" start_banner.mp4
+ffmpeg -i mute_banner.mp4 -vf "fade=in:st=0:d=2,fade=t=out:st=3:d=2" end_banner.mp4
+ffmpeg -f concat -safe 0 -i video.txt -vf "fps=23.98"  concate.mp4
