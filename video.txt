@@ -1,0 +1,3 @@
+file 'C:/xampp/htdocs/uploadOutside/uploads/tmpVideo\start_banner.mp4'
+file 'C:/xampp/htdocs/uploadOutside/uploads/tmpVideo\main_video_with_name.mp4'
+file 'C:/xampp/htdocs/uploadOutside/uploads/tmpVideo\end_banner.mp4'
